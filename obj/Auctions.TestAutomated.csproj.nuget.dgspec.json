@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "c:\\QA_Test\\Google_Test_QA\\Auctions.TestAutomated.csproj": {}
+  },
+  "projects": {
+    "c:\\QA_Test\\Google_Test_QA\\Auctions.TestAutomated.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "c:\\QA_Test\\Google_Test_QA\\Auctions.TestAutomated.csproj",
+        "projectName": "Auctions.TestAutomated",
+        "projectPath": "c:\\QA_Test\\Google_Test_QA\\Auctions.TestAutomated.csproj",
+        "packagesPath": "C:\\Users\\Desenvolvimento\\.nuget\\packages\\",
+        "outputPath": "c:\\QA_Test\\Google_Test_QA\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Desenvolvimento\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.0.0-alpha05, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
